@@ -8,6 +8,7 @@ void bubble_sort(int arr[], int sz)
 		int j = 0;
 		for (j = 0; j < sz - 1 - i; j++)
 		{
+			// ÕâÀïÐ´×¢ÊÍ
 			if (arr[j] > arr[j + 1])
 			{
 				int tmp = arr[j];
