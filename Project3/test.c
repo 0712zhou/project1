@@ -9,6 +9,7 @@ void bubble_sort(int arr[], int sz)
 		for (j = 0; j < sz - 1 - i; j++)
 		{
 			// 这里写注释
+			// make some comments here
 			if (arr[j] > arr[j + 1])
 			{
 				int tmp = arr[j];
@@ -25,9 +26,11 @@ void bubble_sort(int arr[], int sz)
 }
 int main()
 {
+	//定义数组
 	int arr[] = { 9,8,7,6,5,4,3,2,1 };
 	int i = 0;
 	int sz = sizeof(arr) / sizeof(arr[0]);
+	//调用冒泡函数
 	bubble_sort(arr, sz);
 	for (i = 0; i < sz; i++)
 	{
